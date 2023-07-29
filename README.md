@@ -4,6 +4,6 @@ Welcome to a custom Copilot workshop prepared by GitHub’s Expert Service team!
 
 ## Table of Contents
 
-1. [Story about Mona's dream to make her dream a reality](docs/1_Story/README.md
+1. [Story about Mona's dream to make her dream a reality](docs/1_Story/README.md)
 2. [Before getting started](docs/2_BeforeGettingStarted/README.md)
 3. Build a PostgreSQL database layer using Docker container
