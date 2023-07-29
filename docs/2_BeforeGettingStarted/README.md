@@ -1,6 +1,6 @@
 # Before getting started
 
-[Prev - Story about Mona's dream to make her dream a reality](./1_Story.md) | [Next - Build a PostgreSQL database layer using Docker container](./3_Build_a_PostgreSQL_database_layer_using_Docker_container.md)
+[Prev - Story about Mona's dream to make her dream a reality](../1_Story/README.md.md) | [Next - Build a PostgreSQL database layer using Docker container](./3_Build_a_PostgreSQL_database_layer_using_Docker_container.md)
 
 ## High Level View about what we will build
 
@@ -27,5 +27,5 @@ As a GitHub engineer who delivers this workshop, you should make sure that you h
 - You have Python and PIP installed on your computer and can install dependencies
 - You have NodeJS installed
 
-[Prev - Story about Mona's dream to make her dream a reality](./1_Story.md) | [Next - Build a PostgreSQL database layer using Docker container](./3_Build_a_PostgreSQL_database_layer_using_Docker_container.md)
+[Prev - Story about Mona's dream to make her dream a reality](../1_Story/README.md) | [Next - Build a PostgreSQL database layer using Docker container](./3_Build_a_PostgreSQL_database_layer_using_Docker_container.md)
 

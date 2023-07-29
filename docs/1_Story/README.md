@@ -1,6 +1,6 @@
 # Story about Mona's dream to make her dream a reality
 
-[Next - Before Getting Started](./2_Before_etting_Started.md)
+[Next - Before Getting Started](../2_BeforeGettingStarted/README.md
 
 ![137653022-15381990-c9eb-45e7-af82-4881fc3f0d19 (1)](https://user-images.githubusercontent.com/5396174/172204919-9ffb3993-1670-492e-a739-2efc25f9e8c3.gif)
 
@@ -36,4 +36,4 @@ And so, the tale of Mona, the cat cafe owner turned tech-savvy entrepreneur, and
 
 > Welcome aboard! In this tutorial, you will help Mona’s dream to help build the Purrfect Haven. You will leverage AI tool GitHub Copilot to build from a scratch.
 
-[Next - Before Getting Started](./2_Before_etting_Started.md)
+[Next - Before Getting Started](../2_BeforeGettingStarted/README.md)
