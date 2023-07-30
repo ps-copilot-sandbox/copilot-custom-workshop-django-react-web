@@ -4,6 +4,8 @@
 
 ## High Level View about what we will build
 
+![High Level View](images/ArchitectureStacks.jpg)
+
 1. Build a PostgreSQL database layer using Docker container
 2. Create a simple database connection script to check connection to PostgreSQL
 3. Create a Python Django backend that connects to database and expose REST API
