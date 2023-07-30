@@ -15,7 +15,7 @@ This should generate some information including Dockerfile, a SQL script, and in
 
 ![Insert into New File](images/0_InsertIntoNewFile.jpg)
 
-:memo **TIP:** 
+📝 **TIP:** 
 > Once you created these files, you may want to make some random changes by deleting and adding some comments to see how Copilot can quickly generate some corrected data. For example, you may want to temporarily change cats to dogs in create-database.sql and remove the lines to insert the data into the database table. Then, write some comment like `Insert some 10 random data into the table`` and see how Copilot can generate data.
 
 Next, you want to build the database using Dockerfile. Before building a Docker container, you want to inspect Dockerfile and make some changes. For example, you may want to modify database connection string (password, username, etc) as well as checking whether SQL file name is correct.
@@ -58,7 +58,7 @@ Perfect. Can you help me to create a Python script that checks and prints data f
 
 This will generate a Python script file that can helps to connect to local PostgreSQL database. But before that, you need to install a dependency called `psycopg2-binary` that is used in the script.
 
-:memo **TIP:** 
+📝 **TIP:** 
 > One of main issues that often happen with Copilot Chat is that lack of dependencies that are clearly defined and version incompatibility. This is one of the main areas that Copilot needs to get better and require developer’s knowledge.
 
 ```bash
@@ -97,7 +97,7 @@ And it should generate a new Python script. Name it something like `insert-data-
 
 Before moving to the next step, here is one important thing to think about. Right now, we are running this as a local container, so it is alright to store those database credentials within the code itself. 
 
-:memo **TIP:**
+📝 **TIP:**
 > This is a type of judgment that you have to make as a programmer to know what is right or wrong from a correctness perspective. Even if your code will work from a logical point of view, you have to know whether this is really effective, secure, ethical, and efficient. After all, you are the main pilot, and Github Copilot is just your assistant pilot.
 
 However, if we later move those into a shared space, we want those credentials to be read from somewhere safe and be flexible. Thus, we need to change the credentials to be more secure. Type this into Copilot Chat:
