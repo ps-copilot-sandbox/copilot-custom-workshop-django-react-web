@@ -1,6 +1,6 @@
 # Let’s build a PostgreSQL database layer
 
-[Prev - Before getting started](../2_BeforeGettingStarted/README.md) |  [Next - Deploy the PostgreSQL package to GitHub Packages](../4_DeployPostgreSQL/README.md)
+[Prev - Before getting started](../2_BeforeGettingStarted/README.md) |  [Next - Deploy the PostgreSQL package to GitHub Packages](../4_StoringPostgreSQLImageRegistry/README.md)
 
 Try to open **Visual Studio Chat** and enter the following.
 
@@ -139,4 +139,4 @@ docker run -p 5432:5432 --rm --detach --interactive --name custom-database-layer
 
 Make sure to test connection again. We are successful! Now, let’s move onto the next step.
 
-[Prev - Before getting started](../2_BeforeGettingStarted/README.md) |  [Next - Deploy the PostgreSQL package to GitHub Packages](../4_DeployPostgreSQL/README.md)
+[Prev - Before getting started](../2_BeforeGettingStarted/README.md) |  [Next - Deploy the PostgreSQL package to GitHub Packages](../4_StoringPostgreSQLImageRegistry/README.md)
