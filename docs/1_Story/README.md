@@ -1,6 +1,6 @@
 # Story about Mona's dream to make her dream a reality
 
-[Next - Before Getting Started](../2_BeforeGettingStarted/README.md
+[Next - Before Getting Started](../2_BeforeGettingStarted/README.md)
 
 ![137653022-15381990-c9eb-45e7-af82-4881fc3f0d19 (1)](https://user-images.githubusercontent.com/5396174/172204919-9ffb3993-1670-492e-a739-2efc25f9e8c3.gif)
 
