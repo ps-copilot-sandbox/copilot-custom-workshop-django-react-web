@@ -61,7 +61,7 @@ Perfect. Can you help me to create a Python script that checks and prints data f
 
 This will generate a Python script file that can helps to connect to local PostgreSQL database. But before that, you need to install a dependency called `psycopg2-binary` that is used in the script.
 
-📝 **TIP:** 
+📝 **TIP** 
 > One of main issues that often happen with Copilot Chat is that lack of dependencies that are clearly defined and version incompatibility. This is one of the main areas that Copilot needs to get better and require developer’s knowledge.
 
 ```bash

@@ -107,7 +107,7 @@ Here is an example using CURL.
 
 And here is an example using Insomniac. Since we are going to use Insomniac for the next step, you may want to [**install Insomniac**](https://insomnia.rest/download).
 
-![Example Insomniac](./images/13_InsomniaGET.jpg)  
+![Example Insomniac](./images/13_InsomniacGET.jpg)
 
 You can check any error with what gets printed out in the console.
 
@@ -123,13 +123,13 @@ Go to `views.py` and start typing the following comment:
 
 Then, it will give some suggestions like this.
 
-![Suggestion by Copilot](15_SuggestionViews.jpg)
+![Suggestion by Copilot](./images/15_SuggestionViews.jpg)
 
 You may need to make some changes such as field names.
 
 If we can make a call to the Python Django server, we might encounter an error that is related to **CORS (Cross-Origin Resource Sharing (CORS))**, error. Thus, we need to add csrf_exampt by adding `@csrf_exampt` above our function and add library.
 
-![With CSRF](./images/16_WithSomeChanges.jpg)
+![With CSRF](./images/16_WithSomeChange.jpg)
 
 We also need to add URL to our `myproject/urls.py` like this.
 
