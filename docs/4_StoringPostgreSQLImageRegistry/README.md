@@ -1,4 +1,4 @@
-# Storing the PostgreSQL container image in an image registry
+# Deploy the PostgreSQL package to GitHub Packages
 
 [Prev - Let’s build a PostgreSQL database layer](../3_BuildPostgreSQL/README.md) |  [Next - Let's build a Python Djang REST API backend](../5_BuildPythonDjango/README.md)
 
@@ -72,11 +72,11 @@ But remember that we had to provide custom `--build-arg` to build our PostgreSQL
 
 Let's clone our repository and modify our Actions file to take arguments. If you created folder structures like what we show earlier, it might look like this. We will clone the repository under that **AUTOMATION** folder.
 
-![Folder Structure](./imags/7_FolderStructure.jpg)
+![Folder Structure](./images/7_FolderStructure.jpg)
 
 After you cloned, let's open that GitHub Actions workflow file under `.github/workflows` folder. You can open this with your favorite editor.
 
-![Actions file that need to be modified]((./images/8_NeedFixingAction.jpg)
+![Actions file that need to be modified](./images/8_NeedFixingAction.jpg)
 
 We need to add `--build-args` in that Action file, but how do we do that? [Let's visit the GitHub repository for that GitHub Actions called **build-push-action**](https://github.com/docker/build-push-action).
 
