@@ -1,6 +1,6 @@
 # Deploy the PostgreSQL package to GitHub Packages
 
-[Prev - Let’s build a PostgreSQL database layer](../3_BuildPostgreSQL/README.md) |  [Next - Let's build a Python Djang REST API backend](../5_BuildPythonDjango/README.md)
+[Prev - Let’s build a PostgreSQL database layer](../3_BuildPostgreSQL/README.md) |  [Next - Let's build a Python Django REST API backend](../5_BuildPythonDjango/README.md)
 
 Last time, we built and ran a PostgreSQL database running on a local computer through a Docker container. However, we eventually want to distribute this with other team members and to deploy this application somewhere else so it can be accessible through a web application or a service.
 
@@ -96,6 +96,6 @@ Your end result might look like this. Notice that we added `--build-arg` to the 
 
 ![Modified Actions file](./images/12_FinalActions.jpg)
 
-[Prev - Let’s build a PostgreSQL database layer](../3_BuildPostgreSQL/README.md) |  [Next - Let's build a Python Djang REST API backend](../5_BuildPythonDjango/README.md)
+[Prev - Let’s build a PostgreSQL database layer](../3_BuildPostgreSQL/README.md) |  [Next - Let's build a Python Django REST API backend](../5_BuildPythonDjango/README.md)
 
 

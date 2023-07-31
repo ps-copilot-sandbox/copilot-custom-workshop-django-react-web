@@ -8,3 +8,4 @@ Welcome to a custom Copilot workshop prepared by GitHub’s Expert Service team!
 2. [Before getting started](docs/2_BeforeGettingStarted/README.md)
 3. [Build a PostgreSQL database layer using Docker container](docs/3_BuildPostgreSQL/README.md)
 4. [Deploy the PostgreSQL package to GitHub Packages](docs/4_StoringPostgreSQLImageRegistry/README.md)
+5. [Build a Python Django server with REST](docs/5_BuildPythonDjango/README.md)

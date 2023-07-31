@@ -2,7 +2,10 @@
 
 [Prev - Before getting started](../2_BeforeGettingStarted/README.md) |  [Next - Deploy the PostgreSQL package to GitHub Packages](../4_StoringPostgreSQLImageRegistry/README.md)
 
-Try to open **Visual Studio Chat** and enter the following.
+> In this example, you may want to start inside your DB-LAYER directory
+
+Try to open **Visual Studio Chat** and enter the following in your GitHub Copilot Chat.
+
 
 ```bash
 Can you help me to create a Dockerfile that helps to run on localhost with following conditions:
