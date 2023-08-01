@@ -129,7 +129,7 @@ docker stop <PID>
 Then, let’s rebuild our docker images with the following command:
 
 ```bash
-docker build -t custom-database-layer:2.0 --build-arg POSTGRES_USER=admin --build-arg POSTGRES_PASSWORD=password --build-arg POSTGRES_DB=catdb .
+docker build -t custom-database-layer:2.0 --build-arg POSTGRES_USER=admin --build-arg POSTGRES_PASSWORD=P@ssw0rd --build-arg POSTGRES_DB=catdb .
 ```
 
 Then, let’s run the image after checking with docker images
