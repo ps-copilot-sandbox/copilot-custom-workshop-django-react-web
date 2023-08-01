@@ -102,7 +102,7 @@ Then, when you save to reload your ReactJS web page, your updated ReactJS page m
 We can further parse those data to make them look prettier, but, for now, let’s focus on whether we can put those data into a nice table instead of a simple list. Select those HTML tags that print the data, and let’s ask this question in our GitHub Copilot Chat.
 
 ```bash
-How can I put those highlighted codes into a nice bootstrap table instead??
+How can I put those highlighted codes into a nice bootstrap table instead?
 ```
 
 ![Print Table](./images/15_PrintTable.jpg)

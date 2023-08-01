@@ -1,6 +1,14 @@
 # Custom GitHub Copilot workshop with Python Django, ReactJS, and PostgreSQL stacks
 
-Welcome to a custom Copilot workshop prepared by GitHub’s Expert Service team! In this workshop, you will get to deliver a custom Copilot workshop that can help to build a full stack web application that involves a front end layer using ReactJS, a backend layer using Python Django, and a database layer using PostgreSQL. Because 
+![GitHub Copilot Workshop](./images/cover-copilot.jpg)
+
+Welcome to a custom Copilot workshop prepared by **GitHub’s Expert Service team**! 
+
+In this workshop, you will get to deliver a custom Copilot workshop that can help to build a full stack web application that involves a front end layer using ReactJS, a backend layer using Python Django, and a database layer using PostgreSQL.
+
+Because this workshop involves several technology stacks, it is essential that you need to meet prerequisites as outlined from [Before getting started](docs/2_BeforeGettingStarted/README.md) if you want to follow along. Otherwise, you can always listen to what GitHub Expert Service team's instructor demo to see how it works in practice.
+
+Without further ado, let's get started.
 
 ## Table of Contents
 
