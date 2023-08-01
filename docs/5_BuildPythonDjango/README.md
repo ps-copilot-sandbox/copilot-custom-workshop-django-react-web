@@ -4,7 +4,7 @@
 
 In the last stage, we built our PostgreSQL running inside a Docker container. In this time, we will try to build a simple Python Django server with REST API so it can retrieve and insert data.
 
-> In this example, you may want to start inside your FRONTEND-LAYER directory
+> In this example, you may want to start inside your BACKEND-LAYER directory
 
 Try to open **Visual Studio Chat** and enter the following in your GitHub Copilot Chat.
 
