@@ -143,6 +143,37 @@ You can verify the result by either calling our retrieve-data-db.py or checking 
 
 ![Verify Result](./images/19_SuccessDB.jpg)
 
+Before proceeding further, we need to make an adustment to our Python Django server so it can handle CORS exception. This is necessary because our API endpoint might not be accessible to our ReactJS front layer. We can do this by installing a library called `django-cors-headers` and adding it to our `INSTALLED_APPS` in `myproject/settings.py`.
+
+Run the following command:
+
+```bash
+pip install django-cors-headers
+```
+
+![Install CORS](./images/20_InstallCORS.jpg)
+
+Then, add `corsheaders` to `INSTALLED_APPS` in `myproject/settings.py`.
+
+![Add CORS](./images/21_AddCORS_installed.jpg)
+
+You also need to add `corsheaders.middleware.CorsMiddleware` to `MIDDLEWARE` in `myproject/settings.py`.
+
+![Add to middlewae](./images/22_AddCORS_middleware.jpg)
+
+Next, add the following to `myproject/settings.py`. I added at the end of file.
+
+```python
+CORS_ORIGIN_ALLOW_ALL = False
+CORS_ORIGIN_WHITELIST = (
+       'http://localhost:3000',
+)
+```
+
+![Add origins](./images/23_AddCORS_origin.jpg)
+
+Then, restart your Python Django server.
+
 Awesome. Now, we are ready to move onto our final step to build a front layer using ReactJS.
 
 [Prev - Deploy the PostgreSQL package to GitHub Packages](../4_StoringPostgreSQLImageRegistry/README.md) |  [Next - Build a ReactJS front layer](../6_BuildReactJS/README.md)

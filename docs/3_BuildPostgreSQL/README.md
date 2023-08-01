@@ -140,6 +140,9 @@ docker images
 docker run -p 5432:5432 --rm --detach --interactive --name custom-database-layer -d custom-database-layer:2.0
 ```
 
-Make sure to test connection again. We are successful! Now, let’s move onto the next step.
+Make sure to test connection again. We are successful!
+
+Now, let’s move onto the next step.
+
 
 [Prev - Before getting started](../2_BeforeGettingStarted/README.md) |  [Next - Deploy the PostgreSQL package to GitHub Packages](../4_StoringPostgreSQLImageRegistry/README.md)
