@@ -11,6 +11,10 @@
     "extensions": [
         "ms-python.python",
         "GitHub.copilot",
-        "GitHub.copilot-chat"
-    ]
+        "GitHub.copilot-chat",
+        "ckolkman.vscode-postgres"
+    ],
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    }
 }
