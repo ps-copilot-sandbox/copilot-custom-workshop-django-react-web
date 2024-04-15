@@ -1,0 +1,19 @@
+// devcontainer.json
+{
+    "name": "Python-NodeJS",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "runArgs": [
+        "-u",
+        "node"
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-vscode.node-debug2"
+    ]
+}
