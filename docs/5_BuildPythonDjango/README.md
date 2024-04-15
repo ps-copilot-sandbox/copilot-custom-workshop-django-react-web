@@ -9,7 +9,7 @@ In the last stage, we built our PostgreSQL running inside a Docker container. In
 Try to open **Visual Studio Chat** and enter the following in your GitHub Copilot Chat.
 
 ```bash
-How can I start with a simple Django server application that runs on port 8000 and expose an REST API endpoint that retrieves cats data by connecting to a local PostgreSQL that runs on port 5432?
+How can I start with a simple Django server application that runs on port 8000 and expose a REST API endpoint that retrieves cats data by connecting to a local PostgreSQL that runs on port 5432?
 ```
 
 This will start generating some long instructions on how to build a Python dependency for a new Django server application, to create a new Django server application, to modify some Python files in the Django server application, and to start the Django server.

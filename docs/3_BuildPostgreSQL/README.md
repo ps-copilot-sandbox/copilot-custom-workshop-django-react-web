@@ -94,7 +94,7 @@ But what if we want to test something else like inserting new data? Type the fol
 Can you help me to create a Python script to insert new data into the database table?
 ```
 
-And it should generate a new Python script. Name it something like `insert-data-db.py` and run it to check. You may want to run `python test-db--connection.py` to make sure that data exists.
+And it should generate a new Python script. Name it something like `insert-data-db.py` and run it to check. You may want to run `python retrieve-data-db.py` to make sure that data exists.
 
 ![Inserted data](images/7_DatabaseAfterInserted.jpg)
 
