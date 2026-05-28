@@ -1,6 +1,6 @@
 # Before getting started
 
-[Prev - Story about Mona's dream to make her dream a reality](../1_Story/README.md.md) | [Next - Build a PostgreSQL database layer using Docker container](../3_BuildPostgreSQL/README.md)
+[Prev - Story about Mona's dream to make her dream a reality](../1_Story/README.md) | [Next - Build a PostgreSQL database layer using Docker container](../3_BuildPostgreSQL/README.md)
 
 ## High Level View about what we will build
 
