@@ -6,7 +6,6 @@
 
 Try to open **Visual Studio Chat** and enter the following in your GitHub Copilot Chat.
 
-
 ```bash
 Can you help me to create a Dockerfile that helps to run on localhost with following conditions:
 
@@ -18,7 +17,7 @@ This should generate some information including Dockerfile, a SQL script, and in
 
 ![Insert into New File](images/0_InsertIntoNewFile.jpg)
 
-📝 **TIP:** 
+📝 **TIP:**
 > Once you created these files, you may want to make some random changes by deleting and adding some comments to see how Copilot can quickly generate some corrected data. For example, you may want to temporarily change cats to dogs in create-database.sql and remove the lines to insert the data into the database table. Then, write some comment like `Insert some 10 random data into the table`` and see how Copilot can generate data.
 
 Next, you want to build the database using Dockerfile. Before building a Docker container, you want to inspect Dockerfile and make some changes. For example, you may want to modify database connection string (password, username, etc) as well as checking whether SQL file name is correct.
@@ -61,14 +60,14 @@ Perfect. Can you help me to create a Python script that checks and prints data f
 
 This will generate a Python script file that can helps to connect to local PostgreSQL database. But before that, you need to install a dependency called `psycopg2-binary` that is used in the script.
 
-📝 **TIP** 
+📝 **TIP**
 > One of main issues that often happen with Copilot Chat is that lack of dependencies that are clearly defined and version incompatibility. This is one of the main areas that Copilot needs to get better and require developer’s knowledge.
 
 ```bash
 pip install psycopg2-binary
 ```
 
-You may need to run as pip3 if your environment is set differently. 
+You may need to run as pip3 if your environment is set differently.
 
 ![pip install psycopg2-binary](images/3_InstallPsycopPG2.jpg)
 
@@ -94,11 +93,11 @@ But what if we want to test something else like inserting new data? Type the fol
 Can you help me to create a Python script to insert new data into the database table?
 ```
 
-And it should generate a new Python script. Name it something like `insert-data-db.py` and run it to check. You may want to run `python test-db--connection.py` to make sure that data exists.
+And it should generate a new Python script. Name it something like `insert-data-db.py` and run it to check. You may want to run `python retrieve-data-db.py` to make sure that data exists.
 
 ![Inserted data](images/7_DatabaseAfterInserted.jpg)
 
-Before moving to the next step, here is one important thing to think about. Right now, we are running this as a local container, so it is alright to store those database credentials within the code itself. 
+Before moving to the next step, here is one important thing to think about. Right now, we are running this as a local container, so it is alright to store those database credentials within the code itself.
 
 📝 **TIP:**
 > This is a type of judgment that you have to make as a programmer to know what is right or wrong from a correctness perspective. Even if your code will work from a logical point of view, you have to know whether this is really effective, secure, ethical, and efficient. After all, you are the main pilot, and Github Copilot is just your assistant pilot.
@@ -143,6 +142,5 @@ docker run -p 5432:5432 --rm --detach --interactive --name custom-database-layer
 Make sure to test connection again. We are successful!
 
 Now, let’s move onto the next step.
-
 
 [Prev - Before getting started](../2_BeforeGettingStarted/README.md) |  [Next - Deploy the PostgreSQL package to GitHub Packages](../4_StoringPostgreSQLImageRegistry/README.md)

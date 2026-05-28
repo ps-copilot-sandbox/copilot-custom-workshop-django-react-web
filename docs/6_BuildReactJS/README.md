@@ -2,7 +2,8 @@
 
 [Prev -Let's build a Python Django server with REST](../5_BuildPythonDjango/README.md) |  [Next - Best practices and what we have learned](../7_LessonsLearned/README.md)
 
-Last time, we created our backbone layers in Python Django server to retrieve the data from PostgreSQL database. In this time, we will create a ReactJS application that is going to communicate our Django server REST API. However, if we ask too many things first, we might not get the exact result that we want. Let’s start with a very simple step that can help us to get started with ReactJS projects from scratch and work our way from there.
+Last time, we created our backbone layers in Python Django server to retrieve the data from PostgreSQL database. In this time, we will create a ReactJS application that is going to communicate our Django server REST API.
+However, if we ask too many things first, we might not get the exact result that we want. Let’s start with a very simple step that can help us to get started with ReactJS projects from scratch and work our way from there.
 
 > In this example, you may want to start inside your FRONTEND-LAYER directory
 
@@ -59,7 +60,7 @@ Try to open your project and explore the contents. From there, let’s try to op
 
 ![React Contents](./images/7_ReactContents.jpg)
 
-Your current `App.js` might look like this. Although GitHub Copilot can figure out the context from an opened directory file, it can understand better if you have open files. We will try to make this `App.js` to work with our Python Django REST API to retrieve our cat data. 
+Your current `App.js` might look like this. Although GitHub Copilot can figure out the context from an opened directory file, it can understand better if you have open files. We will try to make this `App.js` to work with our Python Django REST API to retrieve our cat data.
 
 ![Initial App.js](./images/8_InitialApp.jpg)
 
@@ -90,6 +91,7 @@ If you revisit what gets returned by our API endpoint at `http://localhost:8000/
 It would probably be better to store JSON data inside the list. In generate, you might have to go back to your Django file and create models around it to better marshall and to unmarshall the data. But for now, let’s work with what we have.
 
 In `App.js` file, I made following changes:
+
 - Under `useEffect()` function, chage `data` to `data.cats`
 - When it gets printed out, print `{cat}` instead of `{cat.name}`
 
@@ -133,7 +135,7 @@ One last step that I wanted to make is to replace that ReactJS logo with my own 
 Can you help to replace that ReactJS logo with a cat logo?
 ```
 
-This printed out a series of instruction as following. 
+This printed out a series of instruction as following.
 
 ![Updating Logo](./images/18_UpdateLogo.jpg)
 

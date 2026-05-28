@@ -2,7 +2,7 @@
 
 ![GitHub Copilot Workshop](./images/cover-copilot.jpg)
 
-Welcome to a custom Copilot workshop prepared by **GitHub’s Expert Service team**! 
+Welcome to a custom Copilot workshop prepared by **GitHub’s Expert Service team**!
 
 In this workshop, you will get to deliver a custom Copilot workshop that can help to build a full stack web application that involves a front end layer using ReactJS, a backend layer using Python Django, and a database layer using PostgreSQL.
 

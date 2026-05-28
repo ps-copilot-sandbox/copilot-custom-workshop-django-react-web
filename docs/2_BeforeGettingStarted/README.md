@@ -12,9 +12,10 @@
 4. Create a ReactJS front end server that connects to Python Django’s REST
 5. Deploy the application infrastructure layer (stretch goal)
 
-## Right audience for this workshop:
+## Right audience for this workshop
 
 This workshop should be ideal for customers who meets the following requirements:
+
 - Either went through a basic Copilot 101 training or have familiarity with GitHub Copilot
 - Prefer an advanced Copilot that involves a full web-end stack with Python Django, ReactJS, and a database layer
 
@@ -37,6 +38,7 @@ At the end of this workshop, you should be able to build a full stack web applic
 ## Recommended setup
 
 It is recommended that you created a separate parent folder with individual folders for each of the following components:
+
 - `backend` - Python Django backend
 - `frontend` - ReactJS frontend
 - `database` - PostgreSQL database layer

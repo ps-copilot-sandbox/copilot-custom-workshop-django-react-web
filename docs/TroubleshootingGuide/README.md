@@ -1,6 +1,6 @@
 # Troubleshooting guide
 
-## Problem: You are getting an error port is getting used: docker: Error response from daemon: Ports are not available: listen tcp 0.0.0.0:5432: bind: address already in use.
+## Problem: You are getting an error port is getting used: docker: Error response from daemon: Ports are not available: listen tcp 0.0.0.0:5432: bind: address already in use
 
 Terminate the Terminal. Run the following command.
 
@@ -10,7 +10,7 @@ sudo lsof -i :5432
 sudo kill -9 <PID>
 ```
 
-## Problem: docker: Error response from daemon: Conflict. The container name "/custom-database-layer" is already in use by container. You have to remove (or rename) that container to be able to reuse that name.
+## Problem: docker: Error response from daemon: Conflict. The container name "/custom-database-layer" is already in use by container. You have to remove (or rename) that container to be able to reuse that name
 
 ```bash
 docker ps -a
